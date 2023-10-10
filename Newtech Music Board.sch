@@ -16180,6 +16180,254 @@ Source: &lt;a href="http://www.puiaudio.com/pdf/AST-01508MR-R.pdf"&gt; Datasheet
 </deviceset>
 </devicesets>
 </library>
+<library name="pinhead" urn="urn:adsk.eagle:library:325">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X02" urn="urn:adsk.eagle:footprint:22309/1" library_version="5">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+</package>
+<package name="1X02/90" urn="urn:adsk.eagle:footprint:22310/1" library_version="5">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.175" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
+<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
+<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
+<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="1X02" urn="urn:adsk.eagle:package:22435/2" type="model" library_version="5">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X02"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02/90" urn="urn:adsk.eagle:package:22437/2" type="model" library_version="5">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X02/90"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PINHD2" urn="urn:adsk.eagle:symbol:22308/1" library_version="5">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X2" urn="urn:adsk.eagle:component:22516/4" prefix="JP" uservalue="yes" library_version="5">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X02">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22435/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="98" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="/90" package="1X02/90">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22437/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="24" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="MJ-3502N">
+<packages>
+<package name="CUI_MJ-3502N">
+<wire x1="-8" y1="4" x2="7" y2="4" width="0.05" layer="39"/>
+<wire x1="7" y1="4" x2="7" y2="-4" width="0.05" layer="39"/>
+<wire x1="7" y1="-4" x2="-8" y2="-4" width="0.05" layer="39"/>
+<wire x1="-8" y1="-4" x2="-8" y2="-3" width="0.05" layer="39"/>
+<wire x1="-8" y1="-3" x2="-12" y2="-3" width="0.05" layer="39"/>
+<wire x1="-12" y1="-3" x2="-12" y2="3" width="0.05" layer="39"/>
+<wire x1="-12" y1="3" x2="-8" y2="3" width="0.05" layer="39"/>
+<wire x1="-8" y1="3" x2="-8" y2="4" width="0.05" layer="39"/>
+<text x="-7.002359375" y="4.25143125" size="1.27043125" layer="25">&gt;NAME</text>
+<text x="-7.106690625" y="-5.55523125" size="1.2712" layer="27">&gt;VALUE</text>
+<wire x1="-6.15" y1="-0.65" x2="-5.55" y2="-1.25" width="0.0001" layer="46" curve="90"/>
+<wire x1="-5.55" y1="-1.25" x2="-4.95" y2="-0.65" width="0.0001" layer="46" curve="90"/>
+<wire x1="-4.95" y1="-0.65" x2="-4.95" y2="0.65" width="0.0001" layer="46"/>
+<wire x1="-4.95" y1="0.65" x2="-5.55" y2="1.25" width="0.0001" layer="46" curve="90"/>
+<wire x1="-5.55" y1="1.25" x2="-6.15" y2="0.65" width="0.0001" layer="46" curve="90"/>
+<wire x1="-6.15" y1="0.65" x2="-6.15" y2="-0.65" width="0.0001" layer="46"/>
+<wire x1="-6.75" y1="3.75" x2="6.75" y2="3.75" width="0.127" layer="51"/>
+<wire x1="6.75" y1="3.75" x2="6.75" y2="-3.75" width="0.127" layer="51"/>
+<wire x1="6.75" y1="-3.75" x2="-6.75" y2="-3.75" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="-3.75" x2="-6.75" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="-3.5" x2="-6.75" y2="3.5" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="3.5" x2="-6.75" y2="3.75" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="3.75" x2="6.75" y2="3.75" width="0.127" layer="21"/>
+<wire x1="6.75" y1="3.75" x2="6.75" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="6.75" y1="-3.75" x2="-6.75" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="-3.75" x2="-6.75" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="-3.5" x2="-6.75" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="3.5" x2="-6.75" y2="3.75" width="0.127" layer="21"/>
+<wire x1="4.95" y1="-0.65" x2="5.55" y2="-1.25" width="0.0001" layer="46" curve="90"/>
+<wire x1="5.55" y1="-1.25" x2="6.15" y2="-0.65" width="0.0001" layer="46" curve="90"/>
+<wire x1="6.15" y1="-0.65" x2="6.15" y2="0.65" width="0.0001" layer="46"/>
+<wire x1="6.15" y1="0.65" x2="5.55" y2="1.25" width="0.0001" layer="46" curve="90"/>
+<wire x1="5.55" y1="1.25" x2="4.95" y2="0.65" width="0.0001" layer="46" curve="90"/>
+<wire x1="4.95" y1="0.65" x2="4.95" y2="-0.65" width="0.0001" layer="46"/>
+<wire x1="-0.75" y1="-0.65" x2="-0.15" y2="-1.25" width="0.0001" layer="46" curve="90"/>
+<wire x1="-0.15" y1="-1.25" x2="0.45" y2="-0.65" width="0.0001" layer="46" curve="90"/>
+<wire x1="0.45" y1="-0.65" x2="0.45" y2="0.65" width="0.0001" layer="46"/>
+<wire x1="0.45" y1="0.65" x2="-0.15" y2="1.25" width="0.0001" layer="46" curve="90"/>
+<wire x1="-0.15" y1="1.25" x2="-0.75" y2="0.65" width="0.0001" layer="46" curve="90"/>
+<wire x1="-0.75" y1="0.65" x2="-0.75" y2="-0.65" width="0.0001" layer="46"/>
+<wire x1="-6.75" y1="3.5" x2="-7.75" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-7.75" y1="3.5" x2="-7.75" y2="2.75" width="0.127" layer="21"/>
+<wire x1="-7.75" y1="2.75" x2="-7.75" y2="-2.75" width="0.127" layer="21"/>
+<wire x1="-7.75" y1="-2.75" x2="-7.75" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-7.75" y1="-3.5" x2="-6.75" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="3.5" x2="-7.75" y2="3.5" width="0.127" layer="51"/>
+<wire x1="-7.75" y1="3.5" x2="-7.75" y2="2.75" width="0.127" layer="51"/>
+<wire x1="-7.75" y1="2.75" x2="-7.75" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="-7.75" y1="-3.5" x2="-6.75" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="-7.75" y1="2.75" x2="-11.75" y2="2.75" width="0.127" layer="51"/>
+<wire x1="-11.75" y1="2.75" x2="-11.75" y2="-2.75" width="0.127" layer="51"/>
+<wire x1="-11.75" y1="-2.75" x2="-7.8" y2="-2.75" width="0.127" layer="51"/>
+<wire x1="-7.75" y1="2.75" x2="-11.75" y2="2.75" width="0.127" layer="21"/>
+<wire x1="-11.75" y1="2.75" x2="-11.75" y2="-2.75" width="0.127" layer="21"/>
+<wire x1="-11.75" y1="-2.75" x2="-7.75" y2="-2.75" width="0.127" layer="21"/>
+<circle x="-8.55" y="3.5" radius="0.1" width="0.2" layer="21"/>
+<pad name="1" x="-5.55" y="0" drill="1.2" shape="long" rot="R90"/>
+<pad name="2" x="-0.15" y="0" drill="1.2" shape="long" rot="R90"/>
+<pad name="3" x="5.55" y="0" drill="1.2" shape="long" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MJ-3502N">
+<wire x1="-3.556" y1="0.508" x2="-3.556" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="-2.54" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.54" x2="-1.524" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0.508" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="-3.556" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-0.762" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.588" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="5.588" y1="-0.762" x2="5.08" y2="-0.762" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="5.588" y="-0.762"/>
+<vertex x="4.572" y="-0.762"/>
+<vertex x="5.08" y="-2.54"/>
+</polygon>
+<wire x1="5.08" y1="-0.762" x2="4.572" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.63351875" y="5.85236875" size="1.781159375" layer="95">&gt;NAME</text>
+<text x="-7.62108125" y="-7.62108125" size="1.77825" layer="96">&gt;VALUE</text>
+<wire x1="7.62" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-0.762" width="0.254" layer="94"/>
+<pin name="1" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="10.16" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MJ-3502N" prefix="J">
+<description>3.5 mm, Mono, Right Angle, Through Hole, Audio Jack Connector &lt;a href="https://pricing.snapeda.com/parts/MJ-3502N/CUI%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MJ-3502N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CUI_MJ-3502N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MJ-3502N/CUI+Devices/view-part/?ref=eda"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/audio-connectors/jacks/mj-3502n?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
+<attribute name="DESCRIPTION" value="3.5 mm, Mono, Right Angle, Through Hole, 2 Conductors, 1 Internal Switch, Audio Jack Connector"/>
+<attribute name="MF" value="CUI Devices"/>
+<attribute name="MP" value="MJ-3502N"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=542465&amp;manufacturer=CUI Devices&amp;part_name=MJ-3502N&amp;search_term=audio 3.5 jack mono"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MJ-3502N/CUI+Devices/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16187,6 +16435,8 @@ Source: &lt;a href="http://www.puiaudio.com/pdf/AST-01508MR-R.pdf"&gt; Datasheet
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+</class>
+<class number="1" name="POWER" width="0.762" drill="0">
 </class>
 </classes>
 <parts>
@@ -16262,6 +16512,8 @@ Source: &lt;a href="http://www.puiaudio.com/pdf/AST-01508MR-R.pdf"&gt; Datasheet
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="LS1" library="AST-01508MR-R" deviceset="AST-01508MR-R" device=""/>
+<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="J2" library="MJ-3502N" deviceset="MJ-3502N" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16602,7 +16854,7 @@ Source: &lt;a href="http://www.puiaudio.com/pdf/AST-01508MR-R.pdf"&gt; Datasheet
 <wire x1="119.38" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+8V" class="0">
+<net name="+8V" class="1">
 <segment>
 <pinref part="J1" gate="G$2" pin="+8V@2"/>
 <wire x1="15.24" y1="111.76" x2="12.7" y2="111.76" width="0.1524" layer="91"/>
@@ -17274,12 +17526,20 @@ Source: &lt;a href="http://www.puiaudio.com/pdf/AST-01508MR-R.pdf"&gt; Datasheet
 <instance part="GND8" gate="1" x="139.7" y="83.82" smashed="yes">
 <attribute name="VALUE" x="137.16" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="GND9" gate="1" x="172.72" y="83.82" smashed="yes">
-<attribute name="VALUE" x="170.18" y="81.28" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="157.48" y="66.04" smashed="yes">
+<attribute name="VALUE" x="154.94" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="LS1" gate="G$1" x="172.72" y="114.3" smashed="yes" rot="MR180">
-<attribute name="NAME" x="184.15" y="114.3" size="1.778" layer="95" rot="MR180" align="center-left"/>
-<attribute name="VALUE" x="184.15" y="116.84" size="1.778" layer="96" rot="MR180" align="center-left"/>
+<instance part="LS1" gate="G$1" x="157.48" y="83.82" smashed="yes" rot="MR180">
+<attribute name="NAME" x="168.91" y="83.82" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="VALUE" x="168.91" y="86.36" size="1.778" layer="96" rot="MR180" align="center-left"/>
+</instance>
+<instance part="JP3" gate="G$1" x="167.64" y="96.52" smashed="yes">
+<attribute name="NAME" x="161.29" y="102.235" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="J2" gate="G$1" x="203.2" y="91.44" smashed="yes" rot="MR0">
+<attribute name="NAME" x="210.83351875" y="97.29236875" size="1.781159375" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="210.82108125" y="83.81891875" size="1.77825" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -17325,8 +17585,14 @@ Source: &lt;a href="http://www.puiaudio.com/pdf/AST-01508MR-R.pdf"&gt; Datasheet
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="172.72" y1="114.3" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="83.82" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="LS1" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="73.66" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="93.98" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="73.66" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
+<junction x="157.48" y="73.66"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -17337,7 +17603,7 @@ Source: &lt;a href="http://www.puiaudio.com/pdf/AST-01508MR-R.pdf"&gt; Datasheet
 <wire x1="45.72" y1="63.5" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+8V" class="0">
+<net name="+8V" class="1">
 <segment>
 <wire x1="30.48" y1="78.74" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
@@ -17403,8 +17669,18 @@ Source: &lt;a href="http://www.puiaudio.com/pdf/AST-01508MR-R.pdf"&gt; Datasheet
 <net name="N$48" class="0">
 <segment>
 <pinref part="C13" gate="G$1" pin="-"/>
-<wire x1="157.48" y1="116.84" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="LS1" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="116.84" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="99.06" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
+<junction x="157.48" y="116.84"/>
+<wire x1="182.88" y1="116.84" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="182.88" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="88.9" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
+<junction x="182.88" y="91.44"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -17412,6 +17688,14 @@ Source: &lt;a href="http://www.puiaudio.com/pdf/AST-01508MR-R.pdf"&gt; Datasheet
 <pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="106.68" x2="139.7" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="LS1" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="96.52" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="96.52" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -17430,7 +17714,25 @@ Source: &lt;a href="http://www.puiaudio.com/pdf/AST-01508MR-R.pdf"&gt; Datasheet
 <approved hash="113,2,124.356,92.606,FRAME2,,,,,"/>
 <approved hash="113,2,38.3371,156.436,JP1,,,,,"/>
 <approved hash="113,2,210.583,156.436,JP2,,,,,"/>
+<approved hash="113,3,165.337,99.2861,JP3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
