@@ -30566,7 +30566,9 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="POWER" width="0.762" drill="0">
+<class number="1" name="POWER" width="0.4064" drill="0">
+</class>
+<class number="2" name="Audio" width="0.762" drill="0">
 </class>
 </classes>
 <parts>
@@ -31784,7 +31786,7 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <wire x1="93.98" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="N$47" class="2">
 <segment>
 <pinref part="C13" gate="G$1" pin="+"/>
 <wire x1="111.76" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
@@ -31795,7 +31797,7 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <junction x="127" y="116.84"/>
 </segment>
 </net>
-<net name="N$48" class="0">
+<net name="N$48" class="2">
 <segment>
 <pinref part="C13" gate="G$1" pin="-"/>
 <wire x1="157.48" y1="116.84" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
@@ -31812,7 +31814,7 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <junction x="182.88" y="91.44"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="N$15" class="2">
 <segment>
 <wire x1="157.48" y1="96.52" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
