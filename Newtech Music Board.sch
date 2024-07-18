@@ -24438,60 +24438,6 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <wire x1="88.9" y1="88.9" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="D3"/>
-<pinref part="J1" gate="G$2" pin="D7"/>
-<wire x1="91.44" y1="144.78" x2="78.74" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="144.78" x2="78.74" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="132.08" x2="50.8" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="D2"/>
-<pinref part="J1" gate="G$2" pin="D6"/>
-<wire x1="91.44" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="147.32" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="134.62" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="D1"/>
-<pinref part="J1" gate="G$2" pin="D5"/>
-<wire x1="91.44" y1="149.86" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="149.86" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="137.16" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="D4"/>
-<pinref part="J1" gate="G$2" pin="D4"/>
-<wire x1="91.44" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="142.24" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="139.7" x2="50.8" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="D5"/>
-<pinref part="J1" gate="G$2" pin="D3"/>
-<wire x1="91.44" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="139.7" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="D6"/>
-<pinref part="J1" gate="G$2" pin="D2"/>
-<wire x1="91.44" y1="137.16" x2="63.5" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="137.16" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="144.78" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="Q1"/>
@@ -24800,6 +24746,70 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <label x="226.06" y="165.1" size="1.778" layer="95"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="165.1" x2="236.22" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J1" gate="G$2" pin="D7"/>
+<wire x1="50.8" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="132.08" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="D1"/>
+<wire x1="68.58" y1="149.86" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="J1" gate="G$2" pin="D6"/>
+<wire x1="50.8" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="134.62" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="D2"/>
+<wire x1="71.12" y1="147.32" x2="91.44" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="J1" gate="G$2" pin="D5"/>
+<wire x1="50.8" y1="137.16" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="137.16" x2="73.66" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="D3"/>
+<wire x1="73.66" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="J1" gate="G$2" pin="D4"/>
+<wire x1="50.8" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="139.7" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="D4"/>
+<wire x1="76.2" y1="142.24" x2="91.44" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="J1" gate="G$2" pin="D3"/>
+<wire x1="50.8" y1="142.24" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="142.24" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="129.54" x2="71.12" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="129.54" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="132.08" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="132.08" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="134.62" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="137.16" x2="78.74" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="137.16" x2="78.74" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="D5"/>
+<wire x1="78.74" y1="139.7" x2="91.44" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="J1" gate="G$2" pin="D2"/>
+<wire x1="50.8" y1="144.78" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="144.78" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="152.4" x2="81.28" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="152.4" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="D6"/>
+<wire x1="81.28" y1="137.16" x2="91.44" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -25435,8 +25445,7 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <approved hash="104,1,99.06,40.64,U3P,VDD,+5V,,,"/>
 <approved hash="104,1,124.46,25.4,U4P,VSS,GND,,,"/>
 <approved hash="104,1,124.46,40.64,U4P,VDD,+5V,,,"/>
-<approved hash="104,3,124.46,121.92,U7,VS,+8V,,,"/>
-<approved hash="104,3,124.46,104.14,U7,GND-1,GND,,,"/>
+<approved hash="104,3,99.06,124.46,IC1,VS,+8V,,,"/>
 <approved hash="113,2,124.356,92.606,FRAME2,,,,,"/>
 <approved hash="113,2,38.3371,156.436,JP1,,,,,"/>
 <approved hash="113,2,210.583,156.436,JP2,,,,,"/>
